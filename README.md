@@ -29,4 +29,4 @@ The Password Complexity Checker is a cybersecurity tool designed to evaluate the
 ### 👤 User Input
 - The user inputs a single password string when prompted.
 
-Example:
+
