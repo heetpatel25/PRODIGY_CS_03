@@ -1,32 +1,48 @@
-# Password Complexity Checker
+# 🔐 Password Complexity Checker  
+**Prodigy InfoTech – Cyber Security Internship (Task 03)**
 
-## 🚀 Task 03 Completed | Cyber Security Internship at Prodigy Infotech
+## 📌 Project Overview
+This project implements a **Password Complexity Checker** using Python.  
+The tool evaluates the **strength and security of user passwords** based on predefined complexity rules and provides feedback to help users create **stronger and more secure passwords**.
 
-### 🔐 Project Overview
-The Password Complexity Checker is a cybersecurity tool designed to evaluate the strength of user passwords. It checks passwords against multiple security criteria and provides feedback to help users create stronger and more secure passwords.
+This task focuses on **authentication security**, a critical component in cybersecurity systems.
 
-### 🛠️ Key Features
-- Checks minimum password length (≥8 characters)
-- Validates the presence of:
-  - Uppercase letters
-  - Lowercase letters
-  - Numbers
-  - Special characters
-- Classifies passwords as **Weak**, **Moderate**, or **Strong**
-- Provides actionable feedback to improve password strength
+---
 
-### ⚙️ How It Works
-1. User enters a password.
-2. The tool evaluates it against security rules:
-   - Length
-   - Uppercase letters
-   - Lowercase letters
-   - Numbers
-   - Special characters
-3. Each passed rule increases the strength score.
-4. Based on the score, the tool classifies the password and gives improvement suggestions.
+## 🛡️ Features
+- Checks password length requirements  
+- Validates presence of **uppercase and lowercase letters**  
+- Ensures inclusion of **numeric characters**  
+- Verifies use of **special characters**  
+- Provides clear feedback on password strength  
+- Helps prevent weak and easily guessable passwords  
 
-### 👤 User Input
-- The user inputs a single password string when prompted.
+---
 
+## ⚙️ How It Works
+1. User inputs a password  
+2. Password is analyzed using defined security rules  
+3. The checker verifies:
+   - Minimum length  
+   - Uppercase and lowercase characters  
+   - Digits (0–9)  
+   - Special symbols  
+4. Password strength is evaluated  
+5. Feedback is displayed indicating whether the password is **Weak, Moderate, or Strong**  
 
+---
+
+## 🧰 Technologies Used
+- **Python**  
+- **Regular Expressions (re module)**  
+- **VS Code**  
+- **Git & GitHub**  
+
+---
+
+## 📚 Key Learnings
+- Understanding **password security and authentication principles**  
+- Implementing **password complexity policies**  
+- Using **regular expressions for pattern matching**  
+- Writing clean, modular, and secure Python functions  
+- Improving awareness of **secure password practices**  
